@@ -1,0 +1,28 @@
+::selection {
+  background: white;
+  color: black;
+}
+
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  max-width: 60em;
+}
+
+body > footer {
+  margin-top: 5em;
+}
+
+td,
+th {
+  padding: .25em .5em;
+}
+
+th {
+  text-align: left;
+}
+
+[id*="hint"] {
+  font-style: italic;
+}
