@@ -1,9 +1,23 @@
 <!DOCTYPE html>
-<html xml:lang="en" lang="en">
+<html xml:lang="en" lang="en-gb">
     {% include "head.html" %}
     <body>
+        <header>
+            <nav aria-label="Primary">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/content/">Content</a></li>
+                    <li><a href="/forms/">Forms</a></li>
+                    <li><a href="/structure/">Structure</a></li>
+                    <li><a href="/dynamic/">Dynamic</a></li>
+                </ul>
+            </nav>
+        </header>
         <h1>{{ title }}</h1>
         {{ content | safe }}
+        <footer>
+            <p>Built and maintained by <a href="https://www.tempertemper.net">tempertemper</a>.</p>
+        </footer>
         <style>
           @media screen and (prefers-color-scheme: dark) {
             :where(a:link) {color: #9e9eff;}
