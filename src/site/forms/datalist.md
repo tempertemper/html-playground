@@ -2,7 +2,7 @@
 title: Datalists
 ---
 
-Datalists can be added to a text input to add a predefined list of values. The `<datalist>` element, together with a `list` attribute that references the datalist’s id are used:
+Datalists can be added to a text input to add a predefined list of values. The `<datalist>` element, together with a `list` attribute that references the datalist’s ID are used.
 
 <form>
     <label for="wild-animal">Favourite wild animal</label>
