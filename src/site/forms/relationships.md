@@ -2,11 +2,11 @@
 title: relationships
 ---
 
-<p>Visual relationships and groupings can be created between form elements, and those should be created programmatically too, so that screen reader users get the same experience.</p>
+Visual relationships and groupings can be created between form elements, and those should be created programmatically too, so that screen reader users get the same experience.
 
-<p>Form fields that have a label and input pairing will have a `for` and `id` attribute on each of those elements, but sometimes groupings can be more complex.</p>
+Form fields that have a label and input pairing will have a `for` and `id` attribute on each of those elements, but sometimes groupings can be more complex.
 
-<h2>Hint/help text</h2>
+## Hint/help text
 
 <form>
     <div>
@@ -17,9 +17,9 @@ title: relationships
 </form>
 
 
-<h2>Fieldsets with hint/help text</h2>
+## Fieldsets with hint/help text
 
-<p>With fieldsets, the <code>aria-describedby</code> attribute will normally be added to the <code>{{ "<fieldset>" | escape }}</code> tag if it applies to all options in the set.</p>
+With fieldsets, the `aria-describedby` attribute will normally be added to the `<fieldset>` tag if it applies to all options in the set.
 
 <form>
     <fieldset aria-describedby="fieldset-hint">
@@ -36,7 +36,7 @@ title: relationships
     </fieldset>
 </form>
 
-<p>It’s still fine to add hint text on individual radio options though.</p>
+It’s still fine to add hint text on individual radio options though.
 
 <form>
     <fieldset>

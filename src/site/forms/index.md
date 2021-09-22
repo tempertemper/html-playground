@@ -2,18 +2,19 @@
 title: Forms
 ---
 
-<p>Forms are the way the users of our websites interact with us.</p>
+Forms are the way the users of our websites interact with us.
 
 <nav aria-label="On page">
-    <h2>Play with a type of form input</h2>
-    <ul>
-        <li><a href="/forms/basic">Basic form fields</a></li>
-        <li><a href="/forms/radio">Radios</a></li>
-        <li><a href="/forms/checkbox">Checkboxes</a></li>
-        <li><a href="/forms/select">Select dropdowns</a></li>
-        <li><a href="/forms/datalist">Datalists</a></li>
-        <li><a href="/forms/relationships">Creating relationships</a></li>
-        <li><a href="/forms/disabled">Disabled form fields</a></li>
-        <li><a href="/forms/inputmode">Virtual keyboards with <code>inputmode</code></a></li>
-    </ul>
+
+## Play with a type of form input
+
+- [Basic form fields](/forms/basic)
+- [Radios](/forms/radio)
+- [Checkboxes](/forms/checkbox)
+- [Select dropdowns](/forms/select)
+- [Datalists](/forms/datalist)
+- [Creating relationships](/forms/relationships)
+- [Disabled form fields](/forms/disabled)
+- [Virtual keyboards with `inputmode`](/forms/inputmode)
+
 </nav>

@@ -2,11 +2,11 @@
 title: Virtual keyboards with inputmode
 ---
 
-<p>With the <code>inputmode</code> attribute, we can help our touchscreen users by giving them the most appropriate virtual keyboard.</p>
+With the `inputmode` attribute, we can help our touchscreen users by giving them the most appropriate virtual keyboard.
 
-<p>For more detailed information, check out <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode">MDN Web Docs on <code>inputmode</code></a>.</p>
+For more detailed information, check out [MDN Web Docs on `inputmode`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode).
 
-<p><i>Note, no formatting is enforced by <code>inputmode</code>.</i></p>
+<i>Note, no formatting is enforced by `inputmode`.</i>
 
 <form>
     <div>

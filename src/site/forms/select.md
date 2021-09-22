@@ -2,7 +2,7 @@
 title: Select dropdowns
 ---
 
-<p><code>select</code> elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with <code>type="radio"</code> can't be used.</p>
+`select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.
 
 <form>
     <label for="fruit">Favourite fruit</label>
@@ -14,15 +14,13 @@ title: Select dropdowns
     </select>
 </form>
 
-<h2>Select with default value</h2>
+## Select with default value
 
-<p>This is done with a ‘blank’ option that has:</p>
+This is done with a ‘blank’ option that has:
 
-<ol>
-    <li>The <code>selected</code> attribute so that it is selected by default</li>
-    <li>An empty <code>value</code> attribute so that it doesn’t submit any data and hopefully triggers validation</li>
-    <li>The <code>disabled</code> attribute so it can't be reselected</li>
-</ol>
+- The `selected` attribute so that it is selected by default
+- An empty `value` attribute so that it doesn’t submit any data and hopefully triggers validation
+- The `disabled` attribute so it can't be reselected
 
 <form>
     <label for="farm-animal">Favourite farm animal</label>
@@ -37,9 +35,9 @@ title: Select dropdowns
 </form>
 
 
-<h2>Select with <code>optgroup</code>s</h2>
+## Select with `optgroup`s
 
-<p>Values within a dropdown can be grouped.</p>
+Values within a dropdown can be grouped.
 
 <form>
     <label for="colour">Favourite colour</label>
@@ -55,4 +53,4 @@ title: Select dropdowns
     </select>
 </form>
 
-<p>The <a href="/forms/datalist"><code>datalist</code></a> element can also be used to enhance a text field with a predefined list of values.</p>
+The [`datalist`](/forms/datalist) element can also be used to enhance a text field with a predefined list of values.

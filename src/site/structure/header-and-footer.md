@@ -2,12 +2,12 @@
 title: Headers and footers
 ---
 
-<p>Only one <code>banner</code> and <code>contentinfo</code> landmark is allowed on each page, but it is possible to add more than one {{ "<header>" | escape }} and {{ "<footer>" | escape }}. Scoping a {{ "<header>" | escape }} or {{ "<footer>" | escape }} in a {{ "<section>" | escape }} or {{ "<article>" | escape }} prevents the <code>banner</code> and <code>contentinfo</code> landmark roles being exposed.</p>
+Only one `banner` and `contentinfo` landmark is allowed on each page, but it is possible to add more than one `<header>` and `<footer>`. Scoping a `<header>` or `<footer>` in a `<section>` or `<article>` prevents the `banner` and `contentinfo` landmark roles being exposed.
 
-<p><i>Note: in theory we <a href="https://www.tempertemper.net/blog/implicit-aria-landmark-roles#in-practice">should be able to use {{ "<nav>" | escape }} and {{ "<aside>" | escape }} to scope {{ "<header>" | escape }} and {{ "<footer>" | escape }} elements</a>, but in practice this is not always reliable. </a></i></p>
+<i>Note: in theory we [should be able to use `<nav>` and `<aside>` to scope `<header>` and `<footer>` elements](https://www.tempertemper.net/blog/implicit-aria-landmark-roles#in-practice), but in practice this is not always reliable.</i>
 
 
-<h2>Product tiers available</h2>
+## Product tiers available
 
 <section aria-labelledby="section-one-heading">
   <header><h3 id="section-one-heading">Bronze</h3></header>
@@ -22,7 +22,7 @@ title: Headers and footers
 
 <section aria-labelledby="section-one-heading">
   <header><h3 id="section-one-heading">Silver</h3></header>
-  <p>Our most popular tier.</p>
+  Our most popular tier.
   <ul>
       <li>Feature 1</li>
       <li>Feature 2</li>
@@ -43,6 +43,6 @@ title: Headers and footers
   <footer>Terms and conditions apply.</footer>
 </section>
 
-<h2 id="role-region-does-not-scope"><code>role="region"</code> does not scope</h2>
+<h2 id="role-region-does-not-scope">The region role does not scope</h2>
 
-<p>Using a generic element with the <code>role="region"</code> attribute may create a custom landmark region but it <em>does not</em> scope {{ "<header>" | escape }} and {{ "<footer>" | escape }} elements.</p>
+Using a generic element with the `role="region"` attribute may create a custom landmark region but it <em>does not</em> scope `<header>` and `<footer>` elements.
