@@ -2,7 +2,7 @@
 title: Radios
 ---
 
-<p>Radio buttons should be used when the user can only select one option from a list.</p>
+Radio buttons should be used when the user can only select one option from a list.
 
 <form>
     <fieldset>

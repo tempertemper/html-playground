@@ -2,14 +2,12 @@
 title: Hiding content
 ---
 
-<p>Sometimes it’s necessary to hide content, either:</p>
+Sometimes it's necessary to hide content, either:
 
-<ul>
-    <li>Visually, but not for screen readers</li>
-    <li>For screen readers, but not visually</li>
-</ul>
+- Visually, but not for screen readers
+- For screen readers, but not visually
 
-<p>The former is more common as sometimes it’s often helpful to communicate context to screen readers that is implicit visually, for example the ‘Edit’ links on a list of editable items:</p>
+The former is more common as sometimes it's often helpful to communicate context to screen readers that is implicit visually, for example the 'Edit' links on a list of editable items:
 
 <style>
   .visually-hidden {
@@ -41,9 +39,10 @@ title: Hiding content
         <dd><a href="#">Edit<span class="visually-hidden"> Brian</span></a></dd>
 </dl>
 
-Here a <code>{{ "<span>" | escape }}</code> with the class of <code>visually-hidden</code> has been wrapped around the person’s name, which is repeated in the ‘Edit’ link, but only to screen reader users. The CSS looks like this:
+Here a `<span>` with the class of `visually-hidden` has been wrapped around the person’s name, which is repeated in the ‘Edit’ link, but only to screen reader users. The CSS looks like this:
 
-<pre><code>{{ "<style>" | escape }}
+```html
+<style>
   .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -53,4 +52,5 @@ Here a <code>{{ "<span>" | escape }}</code> with the class of <code>visually-hid
     white-space: nowrap;
     width: 1px;
   }
-{{ "</style>" | escape }}</code></pre>
+</style>
+```

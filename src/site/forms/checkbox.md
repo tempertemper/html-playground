@@ -2,14 +2,14 @@
 title: Checkboxes
 ---
 
-<p>Checkboxes can be used on their own as a single form field.</p>
+Checkboxes can be used on their own as a single form field.
 
 <form>
     <label for="checkTheBox">Check the box</label>
     <input id="checkTheBox" type="checkbox" />
 </form>
 
-<p>Checkboxes can also be grouped, where multiple options are allowed.</p>
+Checkboxes can also be grouped, where multiple options are allowed.
 
 <form>
     <fieldset>

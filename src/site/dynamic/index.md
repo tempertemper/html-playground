@@ -11,9 +11,9 @@ title: Dynamic content
   }
 </style>
 
-<p>Sometimes content is loaded with JavaScript. When this happens, <code>aria-live="polite"</code> should be used to convey the presence or status of any new content to screen reader users (in other words, non-visually).</p>
+Sometimes content is loaded with JavaScript. When this happens, `aria-live="polite"` should be used to convey the presence or status of any new content to screen reader users (in other words, non-visually).
 
-<p>The following button will toggle a ‘loading’ state, both visually and programmatically:</p>
+The following button will toggle a ‘loading’ state, both visually and programmatically:
 
 <button id="load">Load</button>
 <div id="loading" aria-live="polite" aria-busy="true">Loading</div>
