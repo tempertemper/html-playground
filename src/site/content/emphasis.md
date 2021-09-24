@@ -1,5 +1,5 @@
 ---
-title: emphasis
+title: Emphasis
 ---
 
 Inside a paragraph, we can add text level semantics like *emphasis* and **strong emphasis**.
