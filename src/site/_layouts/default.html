@@ -20,9 +20,11 @@
             <p>Built and maintained by <a href="https://www.tempertemper.net">tempertemper</a>.</p>
         </footer>
         <style>
-          @media screen and (prefers-color-scheme: dark) {
-            :where(a:link) {color: #9e9eff;}
-            :where(a:visited) {color: #d0adf0;}
+          @supports (color-scheme: dark light) {
+            @media screen and (prefers-color-scheme: dark) {
+              :where(a:link) {color: #9e9eff;}
+              :where(a:visited) {color: #d0adf0;}
+            }
           }
         </style>
     </body>

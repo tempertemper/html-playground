@@ -13,6 +13,14 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+## [1.1.1] - 2021-10-01
+
+### Adds
+- Adds new `aria-describedby` example
+
+### Fixes
+- Fixes link colour contrast in Firefox
+
 ## [1.1.0] - 2021-09-22
 
 ### Changes
