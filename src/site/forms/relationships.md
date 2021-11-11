@@ -42,14 +42,14 @@ It’s still fine to add hint text on individual radio options though.
     <fieldset>
         <legend>Do you like The Sopranos?</legend>
         <div>
-            <input id="sopranos-yes" type="radio" name="sopranos" aria-describedby="option-one-hint" />
+            <input id="sopranos-yes" type="radio" name="sopranos" aria-describedby="sopranos-option-one-hint" />
             <label for="sopranos-yes">Yes</label>
-            <span id="option-one-hint">This is the correct answer.</span>
+            <span id="sopranos-option-one-hint">This is the correct answer.</span>
         </div>
         <div>
-            <input id="sopranos-no" type="radio" name="sopranos" aria-describedby="option-two-hint" />
+            <input id="sopranos-no" type="radio" name="sopranos" aria-describedby="sopranos-option-two-hint" />
             <label for="sopranos-no">No</label>
-            <span id="option-two-hint">You haven’t watched it, have you?</span>
+            <span id="sopranos-option-two-hint">You haven’t watched it, have you?</span>
         </div>
     </fieldset>
 </form>
@@ -61,16 +61,16 @@ Sometimes it's necessary to provide hint text on both the group and the input it
         <legend>Do you like Return of the Jedi?</legend>
         <span id="jedi-hint">This was the third film in the Star Wars franchise, released in 1983.</span>
         <div>
-            <input id="jedi-yes" type="radio" name="jedi" aria-describedby="option-one-hint jedi-hint" />
+            <input id="jedi-yes" type="radio" name="jedi" aria-describedby="jedi-hint jedi-option-one-hint" />
             <label for="jedi-yes">Yes</label>
-            <span id="option-one-hint">You were young enough to enjoy the Ewoks.</span>
+            <span id="jedi-option-one-hint">You were young enough to enjoy the Ewoks.</span>
         </div>
         <div>
-            <input id="jedi-no" type="radio" name="jedi" aria-describedby="option-two-hint jedi-hint" />
+            <input id="jedi-no" type="radio" name="jedi" aria-describedby="jedi-hint jedi-option-two-hint" />
             <label for="jedi-no">No</label>
-            <span id="option-two-hint">You were too old to enjoy the Ewoks.</span>
+            <span id="jedi-option-two-hint">You were too old to enjoy the Ewoks.</span>
         </div>
     </fieldset>
 </form>
 
-<i>Note adding the `aria-describedby` attribute to the `<fieldset>` would be more efficient than adding a second value to the `<input>` elements' `aria-describedby` attributes. Unfortunately screen readers usually override, rather than add to, this with the more specific `aria-describedby` attributes on the `<input>` elements.</i>
+<i>Note adding the `aria-describedby` attribute to the `<fieldset>` would be more efficient than adding a second value to the `<input>` elements' `aria-describedby` attributes. Unfortunately screen readers usually override, rather than add to this with the more specific `aria-describedby` attributes on the `<input>` elements.</i>
