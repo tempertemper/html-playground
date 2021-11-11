@@ -1,5 +1,5 @@
 ---
-title: relationships
+title: Relationships
 ---
 
 Visual relationships and groupings can be created between form elements, and those should be created programmatically too, so that screen reader users get the same experience.
