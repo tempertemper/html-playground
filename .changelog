@@ -16,6 +16,11 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [1.2.1] - 2022-01-05
 
+### Adds
+- Adds GitHub Action to automatically tag releases
+
+## [1.2.1] - 2022-01-05
+
 ### Changes
 - Adds more specific node version number in .nvmrc file
 - Updates some styling package dependencies
