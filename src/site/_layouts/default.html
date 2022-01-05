@@ -2,6 +2,7 @@
 <html xml:lang="en" lang="en-gb">
     {% include "head.html" %}
     <body>
+        <a href="#main" class="skip-link">Skip to main content</a>
         <header>
             <nav aria-label="Primary">
                 <ul>
@@ -13,8 +14,10 @@
                 </ul>
             </nav>
         </header>
-        <h1>{{ title }}</h1>
-        {{ content | safe }}
+        <main id="main">
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+        </main>
         <footer>
             <p>If there’s something worth adding to this page, or a mistake you'd like to correct <a href="https://github.com/tempertemper/html-playground/blob/master/{{ page.inputPath }}">please suggest a change on GitHub</a>. You are awesome!</p>
             <p>Built and maintained by <a href="https://www.tempertemper.net">tempertemper</a>.</p>

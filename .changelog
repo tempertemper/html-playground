@@ -13,6 +13,13 @@ All notable changes to this project will be documented in this file. The format 
 
 ----------
 
+
+## [1.2.0] - 2022-01-05
+
+### Adds
+- Adds skip link for keyboard users to jump straight to main content
+
+
 ## [1.1.1] - 2021-10-01
 
 ### Adds
@@ -20,6 +27,7 @@ All notable changes to this project will be documented in this file. The format 
 
 ### Fixes
 - Fixes link colour contrast in Firefox
+
 
 ## [1.1.0] - 2021-09-22
 
