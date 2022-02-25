@@ -7,9 +7,9 @@ Radio buttons should be used when the user can only select one option from a lis
 <details>
     <summary>Keyboard operability</summary>
     <ul>
-        <li>Tab to get into the element</li>
+        <li>Tab to get into the radio group</li>
         <li>Use up/down or left/right arrows to make selection</li>
-        <li>Tab to get out of the element</li>
+        <li>Tab to get out of the radio group</li>
     </ul>
 </details>
 
