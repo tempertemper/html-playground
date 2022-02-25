@@ -4,6 +4,15 @@ title: Radios
 
 Radio buttons should be used when the user can only select one option from a list.
 
+<details>
+    <summary>Keyboard operability</summary>
+    <ul>
+        <li>Tab to get into the element</li>
+        <li>Use up/down or left/right arrows to make selection</li>
+        <li>Tab to get out of the element</li>
+    </ul>
+</details>
+
 <form>
     <fieldset>
         <legend>Who is your favourite Ninja Turtle</legend>
@@ -25,3 +34,4 @@ Radio buttons should be used when the user can only select one option from a lis
         </div>
     </fieldset>
 </form>
+
