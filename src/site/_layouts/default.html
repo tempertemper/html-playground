@@ -13,6 +13,14 @@
                     <li><a href="/dynamic/">Dynamic</a></li>
                 </ul>
             </nav>
+            <!-- This is a fallback search option is javascript fails to load -->
+            <!-- This form should be replaced when search.js runs -->
+            <form action="https://duckduckgo.com/" method="get" id="form-search">
+                <label for="input-search">Enter your search criteria:</label>
+                <input type="text" name="q" id="input-search">
+                <input type="hidden" name="sites" value="https://playground.tempertemper.net/">
+                <button>Search</button>
+            </form>
         </header>
         <main id="main">
             <h1>{{ title }}</h1>
@@ -30,5 +38,6 @@
             }
           }
         </style>
+        <script src="/assets/js/search.js"></script>
     </body>
 </html>
