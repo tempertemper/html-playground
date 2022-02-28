@@ -14,6 +14,12 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 
+## [1.2.3] - 2022-02-25
+
+### Changes
+- Adds margin around `<details>` element
+
+
 ## [1.2.2] - 2022-01-05
 
 ### Adds
