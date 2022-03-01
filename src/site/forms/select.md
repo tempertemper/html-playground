@@ -2,6 +2,8 @@
 title: Select dropdowns
 ---
 
+`select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.
+
 <details>
 <summary>Keyboard operability for Windows</summary>
 
@@ -24,8 +26,6 @@ title: Select dropdowns
 - <kbd>Space</kbd> or <kdb>Enter</kdb> chooses the currently highlighted option and closes the list
 - <kbd>Escape</kbd> closes the list without selecting an option
 </details>
-
-`select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.
 
 <form>
     <label for="fruit">Favourite fruit</label>
