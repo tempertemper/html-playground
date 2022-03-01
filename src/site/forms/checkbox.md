@@ -4,13 +4,12 @@ title: Checkboxes
 Checkboxes can be used on their own as a single form field.
 
 <details>
-    <summary>Keyboard operability</summary>
-    <ul>
-        <li>Tab to place focus on the first box</li>
-        <li>Only spacebar can be used to check or uncheck a box</li>
-        <li>Tab will be used to navigate between mutliple checkboxes</li>
-        <li>Tab to move focus from the last box</li>
-    </ul>
+<summary>Keyboard operability</summary>
+
+- Tab to place focus on the first box
+- Only spacebar can be used to check or uncheck a box
+- Tab will be used to navigate between mutliple checkboxes
+- Tab to move focus from the last box
 </details>
 
 <form>

@@ -3,14 +3,13 @@ title: Select dropdowns
 ---
 
 <details>
-    <summary>Keyboard operability for Windows</summary>
-    <ul>
-        <li>Tab to place focus on the select drop down list</li>
-        <li>Spacebar will open the list but not close it</li>
-        <li>Enter will open and close the list</li>
-        <li>Up and down arrows can be used to make selection</li>
-        <li>Tab to move focus from the select drop down list</li>
-    </ul>
+<summary>Keyboard operability for Windows</summary>
+
+- Tab to place focus on the select drop down list
+- Spacebar will open the list but not close it
+- Enter will open and close the list
+- Up and down arrows can be used to make selection
+- Tab to move focus from the select drop down list
 </details>
 
 <details>
@@ -24,7 +23,6 @@ title: Select dropdowns
 - <kbd>Tab</kbd> does not do anything when the list is open
 - <kbd>Space</kbd> or <kdb>Enter</kdb> chooses the currently highlighted option and closes the list
 - <kbd>Escape</kbd> closes the list without selecting an option
-
 </details>
 
 `select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.
