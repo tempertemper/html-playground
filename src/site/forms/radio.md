@@ -5,12 +5,11 @@ title: Radios
 Radio buttons should be used when the user can only select one option from a list.
 
 <details>
-    <summary>Keyboard operability</summary>
-    <ul>
-        <li>Tab to get into the radio group</li>
-        <li>Use up/down or left/right arrows to make selection</li>
-        <li>Tab to get out of the radio group</li>
-    </ul>
+<summary>Keyboard operability</summary>
+
+- <kbd>Tab</kbd> to get into the radio group
+- Use <kbd>Up</kbd>/<kbd>Down</kbd> or <kbd>Left</kbd>/<kbd>Right</kbd> arrows to make selection
+- <kbd>Tab</kbd> to get out of the radio group
 </details>
 
 <form>

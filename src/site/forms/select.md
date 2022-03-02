@@ -2,29 +2,30 @@
 title: Select dropdowns
 ---
 
-<details>
-    <summary>Keyboard operability for Windows</summary>
-    <ul>
-        <li>Tab to place focus on the select drop down list</li>
-        <li>Spacebar will open the list but not close it</li>
-        <li>Enter will open and close the list</li>
-        <li>Up and down arrows can be used to make selection</li>
-        <li>Tab to move focus from the select drop down list</li>
-    </ul>
-</details>
-
-<details>
-    <summary>Keyboard operability for Mac</summary>
-    <ul>
-        <li>Tab to place focus on the select drop down list</li>
-        <li>Spacebar will open the list but not close it</li>
-        <li>Enter will open and close the list</li>
-        <li>Up and down arrows can be used to make selection</li>
-        <li>Tab to move focus from the select drop down list</li>
-    </ul>
-</details>
-
 `select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.
+
+<details>
+<summary>Keyboard operability for Windows</summary>
+
+- Tab to place focus on the select drop down list
+- Spacebar will open the list but not close it
+- Enter will open and close the list
+- Up and down arrows can be used to make selection
+- Tab to move focus from the select drop down list
+</details>
+
+<details>
+<summary>Keyboard operability for Mac</summary>
+
+- <kbd>Tab</kbd> to place focus on the select control
+- <kbd>Space</kbd>, <kbd>Up</kbd>, or <kbd>Down</kbd> opens the list, highlighting the first option (if the first item is disabled, nothing is highlighted)
+- <kbd>Up</kbd> and <kbd>Down</kbd> move up and down in the list; when the first option is reached:
+    - <kbd>Up</kbd> does not move the highlight any further; when the last option is reached
+    - <kbd>Down</kbd> does not move the highlight any further
+- <kbd>Tab</kbd> does not do anything when the list is open
+- <kbd>Space</kbd> or <kdb>Enter</kdb> chooses the currently highlighted option and closes the list
+- <kbd>Escape</kbd> closes the list without selecting an option
+</details>
 
 <form>
     <label for="fruit">Favourite fruit</label>
