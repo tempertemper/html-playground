@@ -1,0 +1,15 @@
+{%- if tags.length >= 1 and tags.includes('content') %}
+    {%- set collection = collections.content %}
+{%- elif tags.length >= 1 and tags.includes('forms') %}
+    {%- set collection = collections.forms %}
+{%- elif tags.length >= 1 and tags.includes('structure') %}
+    {%- set collection = collections.structure %}
+{%- elif tags.length >= 1 and tags.includes('dynamic') %}
+    {%- set collection = collections.dynamic %}
+{%- endif %}
+
+<ul>
+{%- for item in collection -%}
+    <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+{% endfor %}
+</ul>

@@ -16,7 +16,6 @@ Only one `banner` and `contentinfo` landmark is allowed on each page. Where ther
 
 ## Play with page structure
 
-- [Custom landmarks](/structure/section)
-- [Headers and footers](/structure/header-and-footer)
+{% include "navigation--section.html" %}
 
 </nav>
