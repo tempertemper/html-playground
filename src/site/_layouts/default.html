@@ -4,15 +4,7 @@
     <body>
         <a href="#main" class="skip-link">Skip to main content</a>
         <header>
-            <nav aria-label="Primary">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/content/">Content</a></li>
-                    <li><a href="/forms/">Forms</a></li>
-                    <li><a href="/structure/">Structure</a></li>
-                    <li><a href="/dynamic/">Dynamic</a></li>
-                </ul>
-            </nav>
+            {% include "navigation.html" %}
         </header>
         <main id="main">
             <h1>{{ title }}</h1>
