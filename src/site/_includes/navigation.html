@@ -1,9 +1,14 @@
 <nav aria-label="Primary">
     <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/content/">Content</a></li>
-        <li><a href="/forms/">Forms</a></li>
-        <li><a href="/structure/">Structure</a></li>
-        <li><a href="/dynamic/">Dynamic</a></li>
+    {%- set nav = [
+        { title: 'Home', url: '/' },
+        { title: 'Content', url: '/content/' },
+        { title: 'Forms', url: '/forms/' },
+        { title: 'Structure', url: '/structure/' },
+        { title: 'Dynamic', url: '/dynamic/' }
+    ] %}
+    {%- for item in nav %}
+        <li><a href="{{ item.url | url }}">{{ item.title }}</a></li>
+    {%- endfor %}
     </ul>
 </nav>
