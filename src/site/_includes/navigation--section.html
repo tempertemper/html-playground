@@ -10,8 +10,10 @@
 
 <ul>
 {%- for item in collection -%}
-    <li>
-        <a href="{{ item.url }}">{{ item.data.title }}</a>{% if item.data.intro %}: {{ item.data.intro | replace(".","") }}{% endif %}
-    </li>
+{% if item.data.title !== title %}
+<li>
+    <a href="{{ item.url }}">{{ item.data.title }}</a>{% if item.data.intro %}: {{ item.data.intro | replace(".","") }}{% endif %}
+</li>
+{% endif %}
 {% endfor %}
 </ul>
