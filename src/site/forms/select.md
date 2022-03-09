@@ -45,7 +45,7 @@ This is done with a ‘blank’ option that has:
 
 - The `selected` attribute so that it is selected by default
 - An empty `value` attribute so that it doesn’t submit any data and hopefully triggers validation
-- The `disabled` attribute so it can't be reselected
+- The `disabled` attribute so it can’t be reselected
 
 <form>
     <label for="farm-animal">Favourite farm animal</label>

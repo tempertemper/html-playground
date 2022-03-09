@@ -8,7 +8,7 @@ Hiding content is usually either:
 - Visually, but not for screen readers
 - For screen readers, but not visually
 
-The former is more common as sometimes it's often helpful to communicate context to screen readers that is implicit visually, for example the 'Edit' links on a list of editable items:
+The former is more common as sometimes it’s often helpful to communicate context to screen readers that is implicit visually, for example the ‘Edit’ links on a list of editable items:
 
 <style>
   .visually-hidden {

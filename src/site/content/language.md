@@ -17,6 +17,6 @@ It is possible to define a passage on a page in another language using the `lang
 
 ## Inline language
 
-<p><em lang="fr">C'est la vie</em> say the old folks.</p>
+<p><em lang="fr">C’est la vie</em> say the old folks.</p>
 
 </div>
