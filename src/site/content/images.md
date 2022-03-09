@@ -19,11 +19,11 @@ If there is no `alt` attribute, screen readers will read the file name:
 
 <img src="https://i.pinimg.com/originals/1a/a3/60/1aa360e4342c35730bc4d5561fe95685.png" width="100" height="184" />
 
-<h2>Animated images</h2>
+## Animated images
 
 Animated Gifs or MP4s can be used to display an animation.
 
-By using the `<picture>` element and the `media="(prefers-reduced-motion: no-preference)"` attribute we can ensure our <a href="https://www.tempertemper.net/blog/progressively-enhanced-animated-content">animations are not given to users who have set their operating system to reduce motion</a>.
+By using the `<picture>` element and the `media="(prefers-reduced-motion: no-preference)"` attribute we can ensure our [animations are not given to users who have set their operating system to reduce motion](https://www.tempertemper.net/blog/progressively-enhanced-animated-content).
 
 <picture>
     <source srcset="https://media.giphy.com/media/pO4UHglOY2vII/giphy.gif" media="(prefers-reduced-motion: no-preference)"></source>
