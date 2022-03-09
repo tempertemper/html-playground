@@ -1,5 +1,6 @@
 ---
 title: Tables
+intro: Tables are used for presenting data in a grid for reference and comparison.
 ---
 
 <table>

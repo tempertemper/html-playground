@@ -1,8 +1,9 @@
 ---
 title: Accordions
+intro: HTML gives us the ability to show and hide content using native elements.
 ---
 
-HTML gives us the ability to show and hide content using the `<details>` and `<summary>` elements.
+The elements we use for this are `<details>` and `<summary>`:
 
 <details>
     <summary>Reveal more content</summary>

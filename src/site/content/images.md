@@ -1,5 +1,6 @@
 ---
 title: Images
+intro: Images are used to convey information in a purely visual way.
 ---
 
 ## Alt (or equivalent) text

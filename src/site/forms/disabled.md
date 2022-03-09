@@ -1,8 +1,7 @@
 ---
 title: Disabled form fields
+intro: The disabled attribute stops users interacting with a form field.
 ---
-
-The `disabled` attribute stops users interacting with a form field.
 
 For more detailed information, check out [MDN Web Docs on `disabled` form fields](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled).
 

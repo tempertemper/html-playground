@@ -1,5 +1,6 @@
 ---
 title: Headers and footers
+intro: Headers and footers can be used for the whole page as well as for sections on the page itself.
 ---
 
 Only one `banner` and `contentinfo` landmark is allowed on each page, but it is possible to add more than one `<header>` and `<footer>`. Scoping a `<header>` or `<footer>` in a `<section>` or `<article>` prevents the `banner` and `contentinfo` landmark roles being exposed.

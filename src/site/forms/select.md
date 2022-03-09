@@ -1,5 +1,6 @@
 ---
 title: Select dropdowns
+intro: When there are too many options for a radio set, a dropdown may be the best approach.
 ---
 
 `select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.

@@ -1,8 +1,7 @@
 ---
 title: Virtual keyboards with inputmode
+intro: The inputmode attribute helps touchscreen users by giving them the most appropriate virtual keyboard.
 ---
-
-With the `inputmode` attribute, we can help our touchscreen users by giving them the most appropriate virtual keyboard.
 
 For more detailed information, check out [MDN Web Docs on `inputmode`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode).
 

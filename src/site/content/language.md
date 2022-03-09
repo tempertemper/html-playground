@@ -1,5 +1,6 @@
 ---
 title: Language
+intro: The language of a page, and even parts of a page, is very important to users of assistive technology like screen readers.
 ---
 
 This document has a `lang="en-gb"` attribute on the `<html>` element. This ensures screen readers, search engines and other machines know what language the page is written in.

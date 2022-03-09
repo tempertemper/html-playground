@@ -1,8 +1,8 @@
 ---
 title: Relationships
----
+intro: Visual relationships between form elements should also be made programmatically, so that screen reader users get the same experience.
 
-Visual relationships and groupings can be created between form elements, and those should be created programmatically too, so that screen reader users get the same experience.
+---
 
 Form fields that have a label and input pairing will have a `for` and `id` attribute on each of those elements, but sometimes groupings can be more complex.
 

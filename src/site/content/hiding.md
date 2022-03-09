@@ -1,8 +1,9 @@
 ---
 title: Hiding content
+intro: Sometimes it’s necessary to hide content from some users in order to give the best experience.
 ---
 
-Sometimes it's necessary to hide content, either:
+Hiding content is usually either:
 
 - Visually, but not for screen readers
 - For screen readers, but not visually
