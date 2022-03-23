@@ -26,3 +26,10 @@ th {
 [id*="hint"] {
   font-style: italic;
 }
+
+[type="text"],
+[type="search"],
+[type="file"],
+textarea {
+  display: block;
+}
