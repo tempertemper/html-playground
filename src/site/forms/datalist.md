@@ -6,7 +6,7 @@ Datalists can be added to a text input to add a predefined list of values. The `
 
 <form>
     <label for="wild-animal">Favourite wild animal</label>
-    <input id="wild-animal" list="animalList">
+    <input id="wild-animal" list="animalList" type="text">
     <datalist id="animalList">
         <option>Lions</option>
         <option>Tigers</option>

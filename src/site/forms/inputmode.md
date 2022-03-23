@@ -13,7 +13,7 @@ For more detailed information, check out [MDN Web Docs on `inputmode`](https://d
 
 <form>
     <label for="whole-number">A whole number</label>
-    <input id="whole-number" inputmode="numeric" />
+    <input id="whole-number" inputmode="numeric" type="text" />
 </form>
 
 
@@ -21,7 +21,7 @@ For more detailed information, check out [MDN Web Docs on `inputmode`](https://d
 
 <form>
     <label for="decimal-number">A decimal number</label>
-    <input id="decimal-number" inputmode="decimal" />
+    <input id="decimal-number" inputmode="decimal" type="text" />
 </form>
 
 
@@ -29,14 +29,14 @@ For more detailed information, check out [MDN Web Docs on `inputmode`](https://d
 
 <form>
     <label for="telephone">Enter a telephone number</label>
-    <input id="telephone" inputmode="tel" />
+    <input id="telephone" inputmode="tel" type="text" />
 </form>
 
 ## Email
 
 <form>
     <label for="email">Enter an email address</label>
-    <input id="email" inputmode="email" />
+    <input id="email" inputmode="email" type="text" />
 </form>
 
 
@@ -44,5 +44,5 @@ For more detailed information, check out [MDN Web Docs on `inputmode`](https://d
 
 <form>
     <label for="url">Enter a website address</label>
-    <input id="url" inputmode="url" />
+    <input id="url" inputmode="url" type="text" />
 </form>
