@@ -1,8 +1,9 @@
 ---
 title: Custom landmarks
+intro: Elements like headers, footers, and navigation are built into HTML as they’re common to most websites, but sometimes something more individual is called for.
 ---
 
-Elements like `<header>`, `<footer>`, and `<nav>` are built into HTML as they're common landmarks across most websites, but sometimes something more individual is called for, for example:
+Some examples of custom landmarks are:
 
 - Filter panels for product listings
 - Calls to action

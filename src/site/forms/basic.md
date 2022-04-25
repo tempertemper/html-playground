@@ -1,5 +1,6 @@
 ---
 title: Basic form fields
+intro: Some form fields are just one input; no options and nothing complicated.
 ---
 
 ## Textarea

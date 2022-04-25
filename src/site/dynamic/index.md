@@ -1,5 +1,6 @@
 ---
 title: Dynamic content
+layout: section-index.html
 ---
 
 <style>

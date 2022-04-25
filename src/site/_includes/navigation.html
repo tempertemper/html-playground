@@ -1,0 +1,14 @@
+<nav aria-label="Primary">
+    <ul>
+    {%- set nav = [
+        { title: 'Home', url: '/' },
+        { title: 'Content', url: '/content/' },
+        { title: 'Forms', url: '/forms/' },
+        { title: 'Structure', url: '/structure/' },
+        { title: 'Dynamic', url: '/dynamic/' }
+    ] %}
+    {%- for item in nav %}
+        <li><a href="{{ item.url | url }}">{{ item.title }}</a></li>
+    {%- endfor %}
+    </ul>
+</nav>

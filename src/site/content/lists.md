@@ -1,5 +1,6 @@
 ---
 title: Lists
+intro: When we need to list items, there are a few options in HTML.
 ---
 
 ## Unordered lists

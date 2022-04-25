@@ -1,7 +1,7 @@
 ---
 title: Checkboxes
+intro: These can be used on their own or in a group. They can be checked and unchecked freely.
 ---
-Checkboxes can be used on their own as a single form field.
 
 <details>
 <summary>Keyboard operability</summary>

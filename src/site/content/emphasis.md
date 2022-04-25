@@ -1,7 +1,8 @@
 ---
 title: Emphasis
+intro: Words and phrases can be emphasised, usually with italic and bold text.
 ---
 
-Inside a paragraph, we can add text level semantics like *emphasis* and **strong emphasis**.
+This is some text with an *emphasised* word, and a **strongly emphasised** phrase.
 
-Emphasis is not normally communicated to screen reader users.
+Emphasis, like all text-level semantics, is not normally communicated to screen reader users.

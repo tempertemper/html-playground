@@ -1,5 +1,6 @@
 ---
 title: Select dropdowns
+intro: When there are too many options for a radio set, a dropdown may be the best approach.
 ---
 
 `select` elements are used to give the user a list of items to choose from. Before using a select, we should first explore if an input with `type="radio"` can't be used.
@@ -44,7 +45,7 @@ This is done with a ‘blank’ option that has:
 
 - The `selected` attribute so that it is selected by default
 - An empty `value` attribute so that it doesn’t submit any data and hopefully triggers validation
-- The `disabled` attribute so it can't be reselected
+- The `disabled` attribute so it can’t be reselected
 
 <form>
     <label for="farm-animal">Favourite farm animal</label>

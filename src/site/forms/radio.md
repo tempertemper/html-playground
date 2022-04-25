@@ -1,8 +1,7 @@
 ---
 title: Radios
+intro: Radio buttons should be used when the user can only select one option from a group.
 ---
-
-Radio buttons should be used when the user can only select one option from a list.
 
 <details>
 <summary>Keyboard operability</summary>

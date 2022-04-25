@@ -1,0 +1,19 @@
+{%- if tags.length >= 1 and tags.includes('content') %}
+    {%- set section = collections.content %}
+{%- elif tags.length >= 1 and tags.includes('forms') %}
+    {%- set section = collections.forms %}
+{%- elif tags.length >= 1 and tags.includes('structure') %}
+    {%- set section = collections.structure %}
+{%- elif tags.length >= 1 and tags.includes('dynamic') %}
+    {%- set section = collections.dynamic %}
+{%- endif %}
+
+<ul>
+    {%- for item in section -%}
+    {% if item.data.title !== title %}
+    <li>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>{% if item.data.intro %}: {{ item.data.intro | replace(".","") }}{% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

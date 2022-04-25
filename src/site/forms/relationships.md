@@ -1,8 +1,7 @@
 ---
 title: Relationships
+intro: Visual relationships between form elements should also be made programmatically, so that screen reader users get the same experience.
 ---
-
-Visual relationships and groupings can be created between form elements, and those should be created programmatically too, so that screen reader users get the same experience.
 
 Form fields that have a label and input pairing will have a `for` and `id` attribute on each of those elements, but sometimes groupings can be more complex.
 
@@ -54,7 +53,7 @@ It’s still fine to add hint text on individual radio options though.
     </fieldset>
 </form>
 
-Sometimes it's necessary to provide hint text on both the group and the input itself:
+Sometimes it’s necessary to provide hint text on both the group and the input itself:
 
 <form>
     <fieldset>
@@ -73,4 +72,4 @@ Sometimes it's necessary to provide hint text on both the group and the input it
     </fieldset>
 </form>
 
-<i>Note adding the `aria-describedby` attribute to the `<fieldset>` would be more efficient than adding a second value to the `<input>` elements' `aria-describedby` attributes. Unfortunately screen readers usually override, rather than add to this with the more specific `aria-describedby` attributes on the `<input>` elements.</i>
+<i>Note adding the `aria-describedby` attribute to the `<fieldset>` would be more efficient than adding a second value to the `<input>` elements’ `aria-describedby` attributes. Unfortunately screen readers usually override, rather than add to this with the more specific `aria-describedby` attributes on the `<input>` elements.</i>

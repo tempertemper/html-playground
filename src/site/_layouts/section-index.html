@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{{ content | safe }}
+
+{% if navHeading %}
+<nav aria-label="On page">
+    <h2>{{ navHeading }}</h2>
+    {% include "navigation--section.html" %}
+</nav>
+{% endif %}

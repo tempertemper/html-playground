@@ -1,4 +1,13 @@
 module.exports = function(eleventyConfig) {
+
+  /* List tags belonging to a page */
+  eleventyConfig.addFilter("tagsOnPage", tags => {
+    const notRendered = ['all'];
+    return tags
+      .filter(d => !notRendered.includes(d))
+      .sort();
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     port: 3000,
     watch: true,

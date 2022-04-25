@@ -4,22 +4,15 @@
     <body>
         <a href="#main" class="skip-link">Skip to main content</a>
         <header>
-            <nav aria-label="Primary">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/content/">Content</a></li>
-                    <li><a href="/forms/">Forms</a></li>
-                    <li><a href="/structure/">Structure</a></li>
-                    <li><a href="/dynamic/">Dynamic</a></li>
-                </ul>
-            </nav>
+            {% include "navigation.html" %}
         </header>
         <main id="main">
             <h1>{{ title }}</h1>
+            {% if intro %}<p>{{ intro }}</p>{% endif %}
             {{ content | safe }}
         </main>
         <footer>
-            <p>If there’s something on this <strong>page</strong> you'd like to change; even just a typo or a mistake you'd like to correct <a href="https://github.com/tempertemper/html-playground/blob/master/{{ page.inputPath }}">please suggest a change on GitHub</a>. If there’s something you'd like to see on this <strong>website</strong> that's not there, feel free to <a href="https://github.com/tempertemper/html-playground/issues">add a GitHub Issue</a>. You are awesome!</p>
+            <p>If there’s something on this <strong>page</strong> you’d like to change; even just a typo or a mistake you'd like to correct <a href="https://github.com/tempertemper/html-playground/blob/master/{{ page.inputPath }}">please suggest a change on GitHub</a>. If there’s something you'd like to see on this <strong>website</strong> that's not there, feel free to <a href="https://github.com/tempertemper/html-playground/issues">add a GitHub Issue</a>. You are awesome!</p>
         </footer>
         <style>
           @supports (color-scheme: dark light) {
