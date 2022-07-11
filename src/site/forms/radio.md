@@ -13,7 +13,7 @@ intro: Radio buttons should be used when the user can only select one option fro
 
 <form>
     <fieldset>
-        <legend>Who is your favourite Ninja Turtle</legend>
+        <legend>Who is your favourite Ninja Turtle?</legend>
         <div>
             <input id="donatello" type="radio" name="ninjaTurtle" />
             <label for="donatello">Donatello</label>

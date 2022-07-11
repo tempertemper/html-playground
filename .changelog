@@ -15,6 +15,12 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 
+## [1.3.1] - 2022-07-11
+
+### Fixes
+- Ensures buttons respect the page's font size
+
+
 ## [1.3.0] - 2022-03-09
 
 ### Adds
