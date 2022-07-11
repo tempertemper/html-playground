@@ -20,3 +20,9 @@
   to = "https://example.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/forms/disabled/"
+  to = "/forms/inactive/"
+  status = 301
+  force = true
