@@ -20,4 +20,8 @@ For more detailed information, check out [MDN Web Docs on `disabled` form fields
         <label for="read-only">This text field is read only</label>
         <input id="read-only" value="Some text" type="text"readonly />
     </div>
+    <br />
+    <div>
+        <button disabled>This button is disabled</button>
+    </div>
 </form>
