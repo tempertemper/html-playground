@@ -6,7 +6,7 @@
         <header>
             {% include "navigation.html" %}
         </header>
-        <main id="main">
+        <main id="main" tabindex="-1">
             <h1>{{ title }}</h1>
             {% if intro %}<p>{{ intro }}</p>{% endif %}
             {{ content | safe }}

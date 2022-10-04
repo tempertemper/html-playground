@@ -15,6 +15,12 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 
+## [1.3.2] - 2022-10-04
+
+### Fixes
+- Ensures VoiceOver is able to follow skip to content link
+
+
 ## [1.3.1] - 2022-07-11
 
 ### Fixes
