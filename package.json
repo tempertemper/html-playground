@@ -1,6 +1,6 @@
 {
   "name": "eleventy-base",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "This is the starting point for Eleventy projects",
   "scripts": {
     "clear": "rm -rf dist",
