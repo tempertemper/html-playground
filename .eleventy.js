@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
       .sort();
   });
 
+  const fs = require("fs");
   eleventyConfig.setBrowserSyncConfig({
     port: 3000,
     watch: true,
@@ -18,7 +19,17 @@ module.exports = function(eleventyConfig) {
       }
     },
     open: false,
-    notify: false
+    notify: false,
+    callbacks: {
+      ready: function(err, bs) {
+        bs.addMiddleware("*", (req, res) => {
+          const content_404 = fs.readFileSync('dist/404.html');
+          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
+          res.write(content_404);
+          res.end();
+        });
+      }
+    }
   });
   return {
     templateFormats : ["njk", "html", "md", "txt"],
