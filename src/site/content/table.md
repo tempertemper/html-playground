@@ -7,10 +7,10 @@ intro: Tables are used for presenting data in a grid for reference and compariso
     <caption>Beatle facts</caption>
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Instrument</th>
-            <th>Height (cm)</th>
-            <th>Favourite colour</th>
+            <th scope="col">Name</th>
+            <th scope="col">Instrument</th>
+            <th scope="col">Height (cm)</th>
+            <th scope="col">Favourite colour</th>
         </tr>
     </thead>
     <tbody>
