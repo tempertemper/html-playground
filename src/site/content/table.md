@@ -4,38 +4,39 @@ intro: Tables are used for presenting data in a grid for reference and compariso
 ---
 
 <table>
+    <caption>Beatle facts</caption>
     <thead>
         <tr>
-            <th>Name</th>
-            <th>Age (years)</th>
-            <th>Height (cm)</th>
-            <th>Favourite ice-cream flavour</th>
+            <th scope="col">Name</th>
+            <th scope="col">Instrument</th>
+            <th scope="col">Height (cm)</th>
+            <th scope="col">Favourite colour</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th scope="row">Billy Blue</th>
-            <td>35</td>
-            <td>170</td>
-            <td>Mint choc chip</td>
+            <th scope="row">John Lennon</th>
+            <td>Rhythm guitar</td>
+            <td>179</td>
+            <td>Green</td>
         </tr>
         <tr>
-            <th scope="row">Beth Black</th>
-            <td>27</td>
-            <td>160</td>
-            <td>Strawberry</td>
+            <th scope="row">Paul McCartney</th>
+            <td>Bass guitar</td>
+            <td>179</td>
+            <td>Blue</td>
         </tr>
         <tr>
-            <th scope="row">Tommy Turquoise</th>
-            <td>40</td>
-            <td>185</td>
-            <td>Chocolate</td>
+            <th scope="row">George Harrison</th>
+            <td>Lead guitar</td>
+            <td>177</td>
+            <td>Purple</td>
         </tr>
         <tr>
-            <th scope="row">Rebecca Red</th>
-            <td>32</td>
+            <th scope="row">Ringo Starr</th>
+            <td>Drums</td>
             <td>172</td>
-            <td>Vanilla</td>
+            <td>Red</td>
         </tr>
     </tbody>
 </table>
