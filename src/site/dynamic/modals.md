@@ -11,7 +11,7 @@ intro: Modals and dialogs are content areas that belong to a page but wouldn't m
 
 <button id="showDialog">Show dialog</button>
 
-<dialog id="confirmationDialog" aria-labelledby="dialogHeading">
+<dialog id="confirmationDialog" aria-labelledby="dialogHeading" tabindex="-1">
     <h1 id="dialogHeading">This is a dialog</h1>
     <button id="closeModal">Close</button>
 </dialog>
