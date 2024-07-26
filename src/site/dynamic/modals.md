@@ -3,6 +3,12 @@ title: Modals
 intro: Modals and dialogs are content areas that belong to a page but wouldn't make sense on a new page
 ---
 
+<style>
+    dialog::backdrop {
+        background: rgba(0,0,0,0.6);
+    }
+</style>
+
 <button id="showDialog">Show dialog</button>
 
 <dialog id="confirmationDialog" aria-labelledby="dialogHeading">
