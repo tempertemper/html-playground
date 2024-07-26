@@ -18,17 +18,19 @@ intro: Modals and dialogs are content areas that belong to a page but wouldn't m
 
 <script>
     let dialog = document.getElementById("confirmationDialog");
-    document.getElementById("showDialog").addEventListener("click", function() {
+    document
+    .getElementById("showDialog")
+    .addEventListener("click", function() {
         dialog.showModal();
         dialog.focus();
     });
-    dialog.addEventListener('close', function() {
-          document.getElementById('showDialog').focus();
-        });
+    dialog.addEventListener("close", function() {
+        document.getElementById('showDialog').focus();
+    });
     document
-            .getElementById("closeModal")
-            .addEventListener("click", function () {
-            dialog.close();
-            document.getElementById("showDialog").focus();
-            });
+    .getElementById("closeModal")
+    .addEventListener("click", function () {
+        dialog.close();
+        document.getElementById("showDialog").focus();
+    });
 </script>
