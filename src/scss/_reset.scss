@@ -49,3 +49,8 @@ details {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+main:focus,
+dialog:focus {
+  outline: none;
+}
