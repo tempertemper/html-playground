@@ -52,4 +52,16 @@ intro: Tables are used for presenting data in a grid for reference and compariso
 <th colspan="2">Schedule</th>
 <th rowspan="2">Topic</th>
 </tr>
+<tr>
+<th>Start time</th>
+<th>Finish time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">Monday</td>
+<td rowspan="2">08:00</td>
+<td rowspan="2">17:00</td>
+</tr>
+</tbody>
 
