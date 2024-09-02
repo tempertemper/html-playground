@@ -3,6 +3,8 @@ title: Tables
 intro: Tables are used for presenting data in a grid for reference and comparison.
 ---
 
+<h2>Simple Table</h2>
+
 <table>
     <caption>Beatle facts</caption>
     <thead>
@@ -40,3 +42,14 @@ intro: Tables are used for presenting data in a grid for reference and compariso
         </tr>
     </tbody>
 </table>
+
+<h2>Complex Table</h2>
+
+<table>
+<caption>Daily Schedule</caption>
+<thead>
+<tr>
+<th colspan="2">Schedule</th>
+<th rowspan="2">Topic</th>
+</tr>
+
