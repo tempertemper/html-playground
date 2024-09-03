@@ -49,6 +49,7 @@ intro: Tables are used for presenting data in a grid for reference and compariso
 <caption>Daily Schedule</caption>
 <thead>
 <tr>
+<th rowspan="2">Day</th>
 <th colspan="2">Schedule</th>
 <th rowspan="2">Topic</th>
 </tr>
