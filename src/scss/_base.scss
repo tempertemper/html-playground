@@ -39,3 +39,15 @@ textarea {
 button {
   font-size: inherit;
 }
+
+nav[aria-label="Primary"] ul {
+  padding-left: 0;
+}
+
+nav[aria-label="Primary"] li {
+  display: inline-block;
+}
+
+nav[aria-label="Primary"] li + li {
+  margin-left: .5em;
+}
