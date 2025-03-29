@@ -1,6 +1,6 @@
 ---
-title: Dynamic
+title: Content
 layout: section-index.html
-intro: asdf
-navHeading: asdf
+intro: Static content is how we get information from websites.
+navHeading: Play with a content type
 ---
