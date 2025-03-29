@@ -1,14 +1,13 @@
 {
-  "title": "eleventy-base",
-  "company": "Example Limited",
-  "version": "1.3.5",
-  "url": "https://example.com",
+  "title": "html-playground",
+  "company": "tempertemper",
+  "version": "1.4.0",
+  "url": "https://playground.tempertemper.net",
   "baseurl": "",
-  "repo": "https://github.com/tempertemper/eleventy-base/issues",
+  "repo": "https://github.com/tempertemper/html-playground/issues",
   "comments": false,
   "author": {
-    "name": "Example name",
-    "twitter": "@example",
+    "name": "Martin Underhill",
     "email": "hello+website@example.com"
   },
   "og_locale": "en_GB"
