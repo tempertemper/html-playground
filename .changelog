@@ -15,6 +15,20 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 
+## [1.4.0] - 2025-03-29
+
+### Changes
+- Upgrades to Eleventy 3 and simplifies build
+- Adds all styling to a single CSS file
+- Makes primary nav inline rather than stacked
+- Centres content on page
+- Changes CSS for hiding content
+- Moves details/summary to Dynamic section
+
+### Fixes
+- Updates broken on Content page
+
+
 ## [1.3.4] - 2022-10-28
 
 ### Changes
