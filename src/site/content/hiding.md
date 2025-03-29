@@ -12,7 +12,6 @@ The former is more common as sometimes it’s often helpful to communicate conte
 
 <style>
   .visually-hidden {
-    clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -42,16 +41,13 @@ The former is more common as sometimes it’s often helpful to communicate conte
 
 Here a `<span>` with the class of `visually-hidden` has been wrapped around the person’s name, which is repeated in the ‘Edit’ link, but only to screen reader users. The CSS looks like this:
 
-```html
-<style>
-  .visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-</style>
+```css
+.visually-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 ```
