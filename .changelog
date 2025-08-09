@@ -15,6 +15,12 @@ All notable changes to this project will be documented in this file. The format 
 ----------
 
 
+## [1.4.1] - 2025-08-09
+
+### Changes
+- Updates Node to 24.5.0 and Eleventy to 3.1.2
+
+
 ## [1.4.0] - 2025-03-29
 
 ### Changes
