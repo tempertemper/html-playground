@@ -13,6 +13,8 @@ All notable changes to this project will be documented in this file. The format 
 
 - Updates to ES Modules syntax
 - Removes version-bump-prompt in favour of built-in npm scripts
+- Adds sort filter
+- Sorts section navigation alphabetically
 
 ----------
 

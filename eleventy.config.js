@@ -11,6 +11,26 @@ export default function(config) {
       .sort()
   })
 
+  // Order items if they have the 'order' front matter key
+  config.addFilter("ordered", (items, key = "order", desc = false) => {
+    if (!Array.isArray(items)) return [];
+    const getOrderValue = (item) => {
+      const orderValue = item?.data?.[key];
+      return orderValue === undefined ? Number.POSITIVE_INFINITY : orderValue;
+    };
+    return [...items].sort((a, b) => {
+      const aOrder = getOrderValue(a);
+      const bOrder = getOrderValue(b);
+      if (aOrder === bOrder) {
+        const aTitle = a?.data?.title || a.fileSlug || "";
+        const bTitle = b?.data?.title || b.fileSlug || "";
+        return aTitle.localeCompare(bTitle);
+      }
+      return desc ? bOrder - aOrder : aOrder - bOrder;
+    });
+  });
+
+
   // Localhost server config
   config.setServerOptions({
     port: 3000
