@@ -2,6 +2,7 @@
   "name": "html-playground",
   "version": "1.4.1",
   "description": "A website to understand how HTML elements behave in their out-of-the-box state.",
+  "type": "module",
   "scripts": {
     "clear": "rm -rf dist",
     "build:eleventy": "npx @11ty/eleventy",
