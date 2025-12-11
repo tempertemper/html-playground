@@ -11,8 +11,19 @@ All notable changes to this project will be documented in this file. The format 
 
 ## [Unreleased]
 
-
 ----------
+
+
+## [1.5.0] - 2025-12-11
+
+### Changes
+- Updates to ES Modules syntax
+- Removes version-bump-prompt in favour of built-in npm scripts
+- Adds sort filter and sorts section navigation alphabetically
+- Updates autotag GitHub workflow script
+
+### Removes
+- Removes unused .browserslistrc file
 
 
 ## [1.4.1] - 2025-08-09
