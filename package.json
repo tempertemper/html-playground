@@ -1,6 +1,6 @@
 {
   "name": "html-playground",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "A website to understand how HTML elements behave in their out-of-the-box state.",
   "type": "module",
   "scripts": {
@@ -10,7 +10,6 @@
     "serve": "npx @11ty/eleventy --serve --quiet",
     "start": "npm run clear && npm run serve",
     "staging": "npm run build && echo 'User-agent: *\nDisallow: /' > dist/robots.txt",
-
     "version": "node scripts/sync-site-version.js",
     "_bump:commit": "git add package*.json src/site/_data/site.json && git commit -m \"Bumps version number to $npm_package_version\"",
     "bump:patch": "npm version patch --no-git-tag-version && npm run _bump:commit",
